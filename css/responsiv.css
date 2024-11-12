@@ -1,0 +1,470 @@
+@media (max-width:1025px) {
+    .logoTitle {
+        font-size: 3.5em;
+        text-align: center;
+        margin-left: 342px;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    .srchlogo {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+        width: 20px;
+        height: 36px;
+    }
+
+    .fa-solid {
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+    .fa-solid:hover {
+        cursor: pointer;
+    }
+
+    .banner-section {
+        height: 600px;
+    }
+
+    .banner-title {
+        height: 200px;
+    }
+
+    .bannerTitle {
+        font-size: 3.5em;
+    }
+
+    .banner-para {
+        height: 200px;
+    }
+
+    .bannerPara {
+        font-size: 1em;
+        margin-top: 100px;
+        padding: 10px 50px;
+    }
+
+    .choose {
+        height: 1250px;
+    }
+
+    .choose-conatiner {
+        height: 1000px;
+    }
+
+    .choose-title {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .choose-Title {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+
+    .choose-content {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+}
+
+/* === For Tablet View === */
+/* ============================
+============================
+============================ */
+@media (max-width:769px) {
+    .logoTitle {
+        font-size: 3.5em;
+        text-align: center;
+        margin-left: 239px;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    .srchlogo {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+        width: 20px;
+        height: 36px;
+    }
+
+    .fa-solid {
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+    .fa-solid:hover {
+        cursor: pointer;
+    }
+
+    .banner-section {
+        height: 600px;
+    }
+
+    .banner-title {
+        height: 200px;
+    }
+
+    .bannerTitle {
+        font-size: 3.5em;
+    }
+
+    .banner-para {
+        height: 200px;
+    }
+
+    .bannerPara {
+        font-size: 1em;
+        margin-top: 100px;
+        padding: 10px 50px;
+    }
+
+    .choose {
+        height: 1250px;
+    }
+
+    .choose-conatiner {
+        height: 1000px;
+    }
+
+    .choose-title {
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .choose-Title {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+
+    .choose-content {
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .hlthy {
+        height: 600px;
+    }
+
+    .hlthy-container {
+        height: 600px;
+    }
+
+    .hlthy-Title {
+        font-size: 2.3em;
+    }
+
+    .hlthy-para {
+        font-size: 1.2em;
+        padding: 10px 10px;
+    }
+
+    .trainer{
+        height: 3000px;
+    }
+
+    .trainer-container{
+        height: 3000px;
+    }
+
+    .trainer-hdng{
+        height: 500px;
+    }
+
+    .trainer-content{
+        height: 2500px;
+    }
+    
+    .trainer-Title{
+        font-size: 2.5em;
+    }
+
+    .trainer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trainer-details-img{
+        margin-left: 283px;
+    }
+
+    .trainer-details-logo-Img{
+        height: 30px;
+    }
+
+    .contactimg{
+        height: 400px;
+    }
+
+    
+
+
+}
+
+/* === For L-Mobile View === */
+/* ============================
+============================
+============================ */
+
+@media (max-width:431px) {
+    .logoTitle {
+        font-size: 2.5em;
+        text-align: center;
+        margin-left: 117px;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    .srchlogo {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+        width: 20px;
+        height: 36px;
+    }
+
+    .fa-solid {
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+    .fa-solid:hover {
+        cursor: pointer;
+    }
+
+    .banner-title {
+        height: 100px;
+    }
+
+    .bannerTitle {
+        font-size: 2.5em;
+    }
+
+    .banner-para {
+        height: 100px;
+    }
+
+    .bannerPara {
+        font-size: 0.7em;
+        margin-top: 70px;
+        padding: 30px 50px;
+    }
+
+    .choose-Title {
+        font-size: 1.5em;
+    }
+
+    .chooseline {
+        width: 150px;
+    }
+
+    .choose-content {
+        margin-top: 20px;
+    }
+
+    .choosen-Title {
+        font-size: 0.7em;
+        padding: 10px 60px;
+        margin: 10px;
+    }
+
+    .hlthy {
+        height: 500px;
+    }
+
+    .hlthy-container {
+        height: 530px;
+    }
+
+    .hlthy-Title {
+        font-size: 1.5em;
+    }
+
+    .hlthy-para {
+        font-size: 1em;
+        padding: 0px 30px;
+    }
+
+    .hlthy-button {
+        width: 120px;
+        height: 40px;
+        font-size: 0.8em;
+    }
+
+    .trainer-Title{
+        font-size: 2em;
+    }
+
+    .trainer-details-img{
+        margin-left: 104px;
+    }
+
+    .trainer-details-Img{
+        height: 300px;
+    }
+
+    .contact{
+        height: 1000px;
+    }
+
+    .contact-container{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactimg{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .contactform{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* === For S-Mobile View === */
+/* ============================
+============================
+============================ */
+
+@media (max-width:376px) {
+    .logoTitle {
+        font-size: 2em;
+        text-align: center;
+        margin-left: 106px;
+    }
+
+    .navlist {
+        display: none;
+    }
+
+    .srchlogo {
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: block;
+        width: 20px;
+        height: 22px;
+    }
+
+    .fa-solid {
+        font-weight: 900;
+        font-size: 1.5em;
+    }
+
+    .fa-solid:hover {
+        cursor: pointer;
+    }
+
+    .banner-title {
+        height: 40px;
+    }
+
+    .bannerTitle {
+        font-size: 2.2em;
+    }
+
+    .banner-para {
+        height: 40px;
+    }
+
+    .bannerPara {
+        font-size: 0.7em;
+        margin-top: 70px;
+        padding: 30px 20px;
+    }
+
+    .bannerButton {
+        width: 120px;
+        height: 40px;
+    }
+
+    .choose-Title {
+        font-size: 1em;
+    }
+
+    .chooseline {
+        width: 100px;
+    }
+
+    .hlthy {
+        height: 500px;
+    }
+
+    .hlthy-container {
+        height: 530px;
+    }
+
+    .hlthy-Title {
+        font-size: 1.2em;
+    }
+
+    .hlthy-para {
+        font-size: 1em;
+        padding: 0px 40px;
+        margin-bottom: 5px;
+    }
+
+    .hlthy-button {
+        width: 100px;
+        height: 33px;
+        font-size: 0.7em;
+    }
+
+    .trainer-Title{
+        font-size: 1.52em;
+    }
+
+    .trainer-details-img{
+        margin-left: 50px;
+    }
+
+    .trainer-details-Img{
+        height: 300px;
+    }
+
+    .contact{
+        height: 1000px;
+    }
+
+    .contact-container{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactimg{
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .contactform{
+        width: 250px;
+        height: 250px;
+    }   
+}

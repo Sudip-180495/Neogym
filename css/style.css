@@ -1,0 +1,701 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", "sans-serif";
+}
+
+.wrapper {
+    width: 100%;
+    height: 1440px;
+    /* background-color: beige; */
+}
+
+/* ================NAVBAR SECTION============== */
+
+.navbar-section {
+    width: 100%;
+    height: 80px;
+    background-color: #522633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-section-aboutus{
+    width: 100%;
+    height: 80px;
+    background-color: #8B8A88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-container {
+    width: 90%;
+    height: 100px;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoTitle {
+    font-size: 2.5em;
+    color: white;
+}
+
+.logo-span {
+    color: red;
+}
+
+.navlist {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 25px;
+}
+
+.navlistTitle {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+}
+
+.navlistTitle:hover {
+    font-size: 1.3em;
+    color: #fe0000;
+    cursor: pointer;
+}
+
+.srchlogo {
+    width: 200px;
+    height: 30px;
+    /* background: #000; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.srchlogoInput {
+    height: 20px;
+    float: right;
+    padding: 6px;
+    border: none;
+    font-size: 15px;
+}
+
+.srchImg {
+    height: 20px;
+}
+
+.srchImg:hover {
+    cursor: pointer;
+    height: 30px;
+}
+
+.nav-hamburger {
+    display: none;
+}
+
+.fa-solid {
+    display: none;
+}
+
+/* ================BANNER SECTION============== */
+
+.banner-section {
+    width: 100%;
+    height: 700px;
+    /* background-color:#242132; */
+    background-image: url("../img/hero-bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section-aboutus{
+    width: 100%;
+    height: 700px;
+    /* background-color:#242132; */
+    background-image: url("../img/gym20black-1-scaled-1-1024x683.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baneer-container {
+    width: 90%;
+    height: 600px;
+    /* background-color: lightgoldenrodyellow;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    width: 90%;
+    height: 230px;
+    /* background-color: rgb(244, 2, 2); */
+}
+
+.bannerTitle {
+    font-weight: 900;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 50px;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.bannerTitleaboutus{
+    font-weight: 900;
+    text-align: center;
+    font-size: 8em;
+    margin-top: 50px;
+    color: red;
+    letter-spacing: 10px;
+}
+
+
+.banner-span-Title {
+    color: red;
+    font-size: 1.5em;
+}
+
+.banner-para {
+    width: 90%;
+    height: 230px;
+    /* background-color: rgb(144, 80, 80); */
+}
+
+.bannerPara {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 75px;
+    padding: 10px 100px;
+    font-size: 1.4em;
+    color: white;
+}
+
+.banner-button {
+    width: 90%;
+    height: 230px;
+    /* background-color: rgb(180, 3, 234); */
+    display: flex;
+    justify-content: center;
+}
+
+.bannerButton {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    margin-top: 70px;
+    /* border-radius: 5px; */
+    border: 1px solid white;
+    transition: 0.5s ease-in;
+}
+
+.bannerButton:hover {
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* ABOUT US PAGE SECTION */
+
+.aboutus-section
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: #27223F; */
+    background-image: url("../img/us-bg.jpg") ;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus-section-container{
+    width: 90%;
+    height: 600px;
+    /* background-color: #2b06e4; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutus-content
+{
+    width: 50%;
+    height: 500px;
+    /* background-color: #45a049; */
+    text-align: center;
+}
+.aboutus-content-hdng{
+    width: 100%;
+    height: 50px;
+    /* background-color: #971717; */
+}
+.aboutus-section-hdng-para-span
+{
+    color: red;
+
+}
+.aboutus-content-hdng-para{
+    color: white;
+    font-size: 2.5em;
+}
+.aboutus-content-para{
+    width: 100%;
+    height: 380px;
+    /* background-color: #000000; */
+    margin-top: 21px;
+}
+.aboutus-content-para-10
+{
+    color: white;
+    padding: 10px 20px;
+}
+.aboutus-content-bttn10{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    /* margin-top: 70px; */
+    /* border-radius: 5px; */
+    border: 1px solid white;
+    transition: 0.5s ease-in;
+    font-weight: 900;
+}
+.aboutus-content-bttn10:hover {
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+}
+.aboutus-img
+{
+    width: 50%;
+    height: 500px;
+    /* background-color: #5e1a6a; */
+    background-image: url("../img/istockphoto-1362684836-612x612.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+/* ================WHY COOSE US SECTION============== */
+
+.choose {
+    width: 100%;
+    height: 600px;
+    /* background-color:#242132; */
+    background-image: url("../img/us-bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-conatiner {
+    width: 90%;
+    height: 600px;
+    /* background-color: lightgoldenrodyellow;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-title {
+    width: 100%;
+    height: 200px;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-Title {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 10px;
+    margin-top: 60px;
+}
+
+.chooseline {
+    width: 200px;
+    height: 5px;
+    background-color: #fe0000;
+    margin-top: 5px;
+}
+
+.choose-content {
+    width: 100%;
+    height: 500px;
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choosen-equipment {
+    width: 300px;
+    height: 300px;
+    /* background-color: #e5e2e2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosen-Title {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 10px;
+    margin: 10px;
+    color: white;
+}
+
+/* ================HEALTHY SECTION SECTION============== */
+
+.hlthy {
+    width: 100%;
+    height: 500px;
+    /* background-color:#242132; */
+    background-image: url("../img/healthy-bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hlthy-container {
+    width: 90%;
+    height: 500px;
+    /* background-color: lightgoldenrodyellow;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hlthy-Title {
+    font-size: 3.5em;
+    color: white;
+    margin-top: 100px;
+    font-weight: 900;
+}
+
+.hlthy-para {
+    font-size: 1.35em;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+.hlthy-button {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 20px;
+    /* border-radius: 5px; */
+    border: 1px solid white;
+    transition: 0.5s ease-in;
+}
+
+.hlthy-button:hover {
+    color: #000000;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+}
+
+/* ================TRAINER SECTION============== */
+
+.trainer {
+    width: 100%;
+    height: 800px;
+    /* background-color: lightgreen; */
+    background-image: url("../img/trainer-bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-container {
+    width: 90%;
+    height: 800px;
+    /* background-color: #522633; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-hdng {
+    width: 100%;
+    height: 200px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-Title {
+    font-size: 3em;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.trainer-line {
+    width: 200px;
+    height: 5px;
+    background-color: #fe0000;
+}
+
+.trainer-content {
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer-details {
+    width: 100%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-details-hdng {
+    width: 100%;
+    height: 100px;
+}
+
+.trainer-details-Title {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.trainer-details-img {
+    width: 100%;
+    height: 400px;
+    margin-left: 75px;
+}
+
+.trainer-details-Img {
+    border-radius: 10px;
+}
+
+.trainer-details-logo {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trainer-details-logo-Img {
+    height: 35px;
+}
+
+.trainer-details-logo-Img:hover {
+    cursor: pointer;
+}
+
+/* TRAINERS PAGE SECTION */
+.banner-section-trainer{
+    width: 100%;
+    height: 700px;
+    /* background-color:#242132; */
+    background-image: url("../img/7680c65526397ce129e200d2823c34fe51e988d0_November_banner_27_940x300.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerTitle-trainer {
+    font-weight: 900;
+    text-align: center;
+    font-size: 6em;
+    margin-top: 50px;
+    color:red;
+    letter-spacing: 10px;
+}
+
+
+/* ================CONTACT SECTION============== */
+
+.contact {
+    width: 100%;
+    height: 600px;
+    background-color: #27223F;
+    /* background-image: url("../img/trainer-bg.jpg"); */
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    width: 90%;
+    height: 600px;
+    /* background-color: #522633; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contactimg {
+    width: 700px;
+    height: 600px;
+    /* background-color: #fe0000; */
+    background-image: url("../img/contact-img.jpg");
+    background-size: 100% 100%;
+}
+
+.contactform {
+    width: 700px;
+    height: 600px;
+    /* background-color: #2d1919; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-container {
+    width: 90%;
+    height: 400px;
+    /* background-color: burlywood; */
+}
+
+.contact-form {
+    text-align: center;
+    color: white;
+}
+
+input[type=text],
+select {
+    width: 93%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 100px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.footer {
+    background-color: #522633;
+    color: #fefefe;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-family: sans-serif;
+}
+
+.footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    color: rgb(225, 139, 47);
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+.footer .content p {
+    margin-bottom: 1.3rem;
+}
+
+.footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.footer .content a:hover {
+    border-bottom: 1px solid #971717;
+}
+
+.footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer hr {
+    margin: 2rem 0;
+}
+
+
+
+
